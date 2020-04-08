@@ -1,0 +1,36 @@
+* {
+  font-family: Arial;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, white, gray);
+  height: 100vh;
+  margin: 0;
+}
+
+textarea {
+  font-size: 15px;
+  padding: 10px;
+  width: 50%;
+  resize: none;
+  border-radius: 10px;
+}
+
+h2 {
+  background-image: linear-gradient(to bottom, red, maroon);
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0);
+}
+
+#history {
+  width: 50%;
+  height: 50vh;
+  overflow-y: scroll;
+}
