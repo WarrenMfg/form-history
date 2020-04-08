@@ -25,6 +25,7 @@ textarea {
 
 h2 {
   background-image: linear-gradient(to bottom, red, maroon);
+  background-clip: text;
   -webkit-background-clip: text;
   color: rgba(0,0,0,0);
 }
